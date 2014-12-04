@@ -1,1 +1,1 @@
-web: bin/hustlebot
+web: bin/verbagebot
