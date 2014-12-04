@@ -10,7 +10,7 @@ import (
 
 var Quantifyme = &hal.Handler{
 	Method:  hal.RESPOND,
-	Pattern: `quantify \w+`,
+	Pattern: `quantify \S+`,
 	Run: func(res *hal.Response) error {
 		matchwords:=strings.Split(res.Match[0],` `)
 		user:=matchwords[2]
