@@ -1,0 +1,11 @@
+#!/bin/sh
+
+h config:set BUILDPACK_URL=https://github.com/kr/heroku-buildpack-go.git
+h config:set HAL_ADAPTER=slack
+h config:set HAL_LOG_LEVEL=debug
+h config:set HAL_NAME=verbagebot
+h config:set HAL_SLACK_BOTNAME=verbagebot
+h config:set HAL_SLACK_CHANNEL_MODE=blacklist
+h config:set HAL_SLACK_TEAM=dbgone
+h config:set HAL_SLACK_TOKEN=ruzOQremDBOjDc3Lv6YtIF0w
+h config:set PORT=80
