@@ -19,6 +19,7 @@ func run() int {
 		bothandlers.Syn,
 		bothandlers.Tableflip,
 		bothandlers.IKR,
+		bothandlers.Quantifyme,
 	)
 
 	if err := robot.Run(); err != nil {
