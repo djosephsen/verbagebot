@@ -1,6 +1,7 @@
 package bothandlers
 
 import (
+	"time"
 	"math/rand"
 	"strings"
 	"github.com/djosephsen/hal"
@@ -34,6 +35,8 @@ func (h *ikr) Pattern() string {
 }
 
 func (h *ikr) Run(res *hal.Response) error {
+   now:=time.Now()
+	rand.Seed(int64(now.Unix()))
 	replies := []string{
 		"*I know right?!*",
 		"*OMG* couldn't agree more",
