@@ -29,9 +29,9 @@ var Quantifyme = &hal.Handler{
 			}
 		case `mads`:
 			if user==`you`{
-				reply=fmt.Sprintf(`%s are %d.%04d %s`,user,rand.Intn(int(2)),rand.Intn(int(1000)),state)
+				reply=fmt.Sprintf(`%s are %d.%04d %s`,user,rand.Intn(int(4)),rand.Intn(int(1000)),state)
 			}else{
-				reply=fmt.Sprintf(`%s is %d.%04d %s`,user,rand.Intn(int(2)),rand.Intn(int(1000)),state)
+				reply=fmt.Sprintf(`%s is %d.%04d %s`,user,rand.Intn(int(4)),rand.Intn(int(1000)),state)
 			}
 		case `fucks`:
 			if user==`you`{
