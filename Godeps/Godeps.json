@@ -33,6 +33,10 @@
 			"Rev": "4446ec21fa9e0ffd531d6cf25a57bf5742078e04"
 		},
 		{
+			"ImportPath": "github.com/gorhill/cronexpr",
+			"Rev": "a557574d6c024ed6e36acc8b610f5f211c91568a"
+		},
+		{
 			"ImportPath": "github.com/thoj/go-ircevent",
 			"Rev": "5e6704d8956eeba81a2cbac9ba73bd609da39d0f"
 		}
