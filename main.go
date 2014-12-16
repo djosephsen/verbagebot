@@ -20,6 +20,7 @@ func run() int {
 		bothandlers.Tableflip,
 		bothandlers.IKR,
 		bothandlers.Quantifyme,
+		bothandlers.LoveAndWar,
 	)
 
 	if err := robot.Run(); err != nil {
