@@ -22,6 +22,7 @@ func run() int {
 		bothandlers.Quantifyme,
 		bothandlers.LoveAndWar,
 		bothandlers.Gifme,
+		bothandlers.Help,
 	)
 
 	if err := robot.Run(); err != nil {
