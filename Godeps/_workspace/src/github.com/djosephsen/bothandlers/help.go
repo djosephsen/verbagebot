@@ -7,7 +7,7 @@ import (
 	)
 
 var Help = &hal.Handler{
-	Method:  hal.HEAR,
+	Method:  hal.RESPOND,
 	Pattern: `help`,
 	Usage: `*help*: prints this message when you type "botname help"`,
 	Run: func(res *hal.Response) error {
